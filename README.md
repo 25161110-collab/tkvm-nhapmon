@@ -4,9 +4,6 @@ Dự án đầu tiên của tôi
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Thông Tin Sinh Viên</title>
-</head>
-<body>
     <h1>Giới Thiệu Bản Thân</h1>
     <p><strong>Họ và tên:</strong> Mai Đức Dương</p>
     <p><strong>Mã số sinh viên:</strong> 25161110</p>
