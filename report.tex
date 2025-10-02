@@ -1,0 +1,99 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\input{math_commands.tex} 
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{xcolor} 
+\definecolor{myrowcolor}{rgb}{0.8, 0.8, 0.8} 
+\usepackage{url}
+\usepackage[bookmarks=false]{hyperref}
+
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+
+
+\usepackage{flushend}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+% \bstctlcite{IEEEexample:BSTcontrol}
+
+
+\title{Paper title}
+
+
+\author{\fontsize{10.5}{14} Author name\\
+Department of Computer and Communications Engineering\\
+HCMC University of Technology and Education, Ho Chi Minh City, 71307, Vietnam\\
+Emails: \textrm{your\_email@gmail.com}}
+
+
+\maketitle
+
+\begin{abstract}
+The content of an abstract.
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+Keywords
+\end{IEEEkeywords}
+
+\section{Methodology}
+Content \dots
+
+\subsection{Signal Model}
+Content \dots
+
+How to type an equation in Latex:
+\begin{equation}
+c = a + b,
+\end{equation}
+
+
+\subsection{The Architecture of OS-Net}
+How to add a figure with png format in Latex.
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width= 0.48\textwidth]{fig/fig1.png}
+	\caption{Architectural diagram of OS-Net.}
+    \label{fig01}
+\end{figure}
+In Fig.~\ref{fig01}.
+
+
+How to compose a Table in Latex.
+\begin{table}[!t]
+\footnotesize
+\setlength{\tabcolsep}{2.4pt}
+\renewcommand{\arraystretch}{1.2}
+\centering
+\caption{Segmentation Results Under Different Model Configurations.}
+\begin{tabular}{lcccccccccc}
+\hline
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c}{\textbf{Configurations}}         &    \textbf{No.} &    \textbf{Time}     & \multirow{2}{*}{\textbf{mAcc}}  & \multirow{2}{*}{\textbf{mIoU}}  & \multirow{2}{*}{\textbf{mPre}}    & \multirow{2}{*}{\textbf{mF1}}   \\ 
+& MAR &  MQ & EGR & \textbf{Params}  & \textbf{(ms)} &  &  &  &   \\
+\hline
+$\mathcal{M}_2$ & \cmark & \xmark &  \xmark   &	$4.6$M	&  $16.2$	 & $66.70$ &	$55.69$ &	$75.41$	& $71.24$	 \\
+
+\hline
+\end{tabular}
+\label{tab_ablationStudy}
+\end{table}
+
+\end{document}
+
